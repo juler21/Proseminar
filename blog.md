@@ -11,7 +11,7 @@ Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensät
     <img src = image1.png>
 </p>
 
-*Source:"Building Google Dataset Search and Fostering an Open Data Ecosystem " by Matthew Burgess and Natasha Noy*
+                        *Source:"Building Google Dataset Search and Fostering an Open Data Ecosystem " by Matthew Burgess and Natasha Noy*
 
 
 ### Mit Hilfe von Digital Object Identifier den Datenpool sortieren

@@ -4,10 +4,12 @@ Jeden Tag werden neue Datensätze im Web veröffentlicht. Nicht erst seit der we
 ## Schema.org für die Struktur der Metadaten
 [Schema.org](https://schema.org/) ist eine mark-up language für die Gliederung und Formatierung von Daten auf Websites, dabei unterstützt schema.org die Datenformate RDFa, Microdata und JSON-LD. Es wurde in einem Gemeinschaftsprojekt der Suchmaschinenanbieter Google, Microsoft, Yahoo und Yadex entwickelt. Dadurch werden Daten für Maschinen lesbar und die Semantik wird einheitlich, so kann der Google Algorithmus zum Beispiel erkennen, dass es sich bei dem Datensatz zum Beispiel um eine Veranstaltung handelt. Schema.org ist hierarchisch aufgebaut. Der oberste Typ ist „Thing“. Er besitzt mehrere Subtypen, wie „Action“ oder „Event“. Dies können wiederum mehrere Subtypen haben. Der Pfad für ein Musikkonzert wäre zum Beispiel folgender: „Thing-Event-MusicEvent“. Der Typ [schmema.org/Dataset](https://schema.org/Dataset) hat mehre Eigenschaften, so werden in schema.org einem Datensatz zum Beispiel einen Titel und der Name des Providers hinzugefügt. Jeder Datensatz in Dataset Search hat einen Titel und eine Beschreibung in den Metadaten gespeichert.
 
-## Struktur der Suchmaschine
+## Aufbau der Suchmaschine
 Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensätzen in schema.org Metadateneigenschaften hinzufügen. Je mehr Metadaten ein Datensatz hat, desto besser kann er bei Suchanfragen gefunden werden. Doch sind die Metadaten zu den Datensätzen oft unvollständig und vage. Deshalb abstrahiert Google einige Metadaten, so werden zum Beispiel die Eigenschaften „publisher“ und „creater“ zu „provided by“ zusammengefasst. Häufig existieren die gleichen Datensätze in unterschiedlichen Repositorien. Dataset Search identifiziert die Replica und fügt sie zu einem Datensatz zusammen. 
 
-![Datset Funktion](image1.png)
+<p align = "center"> 
+    <img src = image1.png>
+</p>
 
 *Source:"Building Google Dataset Search and Fostering an Open Data Ecosystem " by Matthew Burgess and Natasha Noy*
 
@@ -21,4 +23,6 @@ Der [Google Knowledge Graph](https://blog.google/products/search/introducing-kno
 ### Verknüpfung mit Google Scholar
 Mit [Google Scholar](https://en.wikipedia.org/wiki/Google_Scholar) weiß die Suchmaschine, welche Datensätze in Publikationen referenzierte werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten zitiert und uneinheitlich zitiert. 
 
+
 Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit den Antworten auf die Suchanfragen der Nutzer findet der Algorithmus heraus, welche Ergebnisse am besten passen.
+

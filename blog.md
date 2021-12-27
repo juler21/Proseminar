@@ -26,7 +26,7 @@ Mit [Google Scholar](https://en.wikipedia.org/wiki/Google_Scholar) weiß die Suc
 Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit den Antworten auf die Suchanfragen der Nutzer findet der Algorithmus heraus, welche Ergebnisse am besten passen. . Der Nutzer muss nur ein Keyword nennen und er findet Suchergebnisse zu allen möglichen Themen. Die meistgenannten Suchbegriffe sind zum Beispiel „education“, „weather“, „cancer“, „crime“ und „soccer“.
 
 ## Wachstum der datenbasierten Suchmaschinen 
-Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer zweijährigen Testphase veröffentlichte Google im Januar 2020 die Vollversion. Dabei erreichte die Suchmaschiene folgende Ziele:
+Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer zweijährigen Testphase veröffentlichte Google im Januar 2020 die Vollversion. Dabei erreichte die Suchmaschine folgende Ziele:
 + Beinhaltet mehr als 31 Millionen Datensätze
 + Datensätze von mehr als 4.600 Domains
 + Mehr als 3 Millionen Datensätze haben DOIs (ca. 11%)

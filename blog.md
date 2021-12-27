@@ -38,3 +38,8 @@ Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer 
 </p>
 
 *Source: Benjelloun, O., Chen, S., & Noy, N. (2020, November). Google dataset search by the numbers. In International Semantic Web Conference (pp. 667-682). Springer, Cham.*
+
+## Keine perfekte Suchmaschine
+
+Dataset Search soll die Zukunft der Datensuche revolutionieren, doch weist sie noch einige Probleme auf. 
+

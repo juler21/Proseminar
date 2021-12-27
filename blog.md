@@ -32,6 +32,6 @@ Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer 
 - Datensätze von mehr als 4.600 Domains
 - Mehr als 3 Millionen Datensätze haben DOIs (ca. 11%)
 - 10 Millionen Datensätze wurde innerhalb eines Jahres aktualisiert (ca. 30%)
-- 12 Millionen Datensätze stellen einen Downloadlink zur Verfügung (ca.44%)
+- 12 Millionen Datensätze stellen einen Downloadlink zur Verfügung (ca. 44%)
 
 

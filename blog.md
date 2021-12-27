@@ -11,8 +11,7 @@ Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensät
     <img src = image1.png>
 </p>
 
-*Source:"Building Google Dataset Search and Fostering an Open Data Ecosystem " by Matthew Burgess and Natasha Noy*
-
+*Source: Burgess, M., & Noy, N. (September, 2018). Building Google Dataset Search and Fostering an Open Data Ecosystem. Google AI Blog.*
 
 ### Mit Hilfe von Digital Object Identifier den Datenpool sortieren
 Eine Möglichkeit ein Duplikat zu erkennen, ist ein Vergleich über [Digital Object Identifier (DOI)](https://en.wikipedia.org/wiki/Digital_object_identifier). Ein DOI ist ein eindeutiger Identifikator für digitale Objekte. Anhand des Identifikators kann aus einer zentralen Datenbank der URL, der dem Objekt zugewiesen ist, abgefragt werden. Somit werden Metadaten über das referenzierte Objekt gespeichert und dadurch soll das Problem „[link death](https://en.wikipedia.org/wiki/Link_rot)“ lösen. 
@@ -28,10 +27,14 @@ Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit den Antworten
 
 ## Wachstum der datenbasierten Suchmaschinen 
 Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer zweijährigen Testphase veröffentlichte Google im Januar 2020 die Vollversion. Dabei erreichte die Suchmaschiene folgende Ziele:
-- Beinhaltet mehr als 31 Millionen Datensätze
-- Datensätze von mehr als 4.600 Domains
-- Mehr als 3 Millionen Datensätze haben DOIs (ca. 11%)
-- 10 Millionen Datensätze wurde innerhalb eines Jahres aktualisiert (ca. 30%)
-- 12 Millionen Datensätze stellen einen Downloadlink zur Verfügung (ca. 44%)
++ Beinhaltet mehr als 31 Millionen Datensätze
++ Datensätze von mehr als 4.600 Domains
++ Mehr als 3 Millionen Datensätze haben DOIs (ca. 11%)
++ 10 Millionen Datensätze wurde innerhalb eines Jahres aktualisiert (ca. 30%)
++ 12 Millionen Datensätze stellen einen Downloadlink zur Verfügung (ca. 44%)
 
+<p align = "center"> 
+    <img src = image2.png>
+</p>
 
+*Source: Benjelloun, O., Chen, S., & Noy, N. (2020, November). Google dataset search by the numbers. In International Semantic Web Conference (pp. 667-682). Springer, Cham.*

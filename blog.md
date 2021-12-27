@@ -24,5 +24,14 @@ Der [Google Knowledge Graph](https://blog.google/products/search/introducing-kno
 Mit [Google Scholar](https://en.wikipedia.org/wiki/Google_Scholar) weiß die Suchmaschine, welche Datensätze in Publikationen referenzierte werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten zitiert und uneinheitlich zitiert. 
 
 
-Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit den Antworten auf die Suchanfragen der Nutzer findet der Algorithmus heraus, welche Ergebnisse am besten passen.
+Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit den Antworten auf die Suchanfragen der Nutzer findet der Algorithmus heraus, welche Ergebnisse am besten passen. . Der Nutzer muss nur ein Keyword nennen und er findet Suchergebnisse zu allen möglichen Themen. Die meistgenannten Suchbegriffe sind zum Beispiel „education“, „weather“, „cancer“, „crime“ und „soccer“.
+
+## Wachstum der datenbasierten Suchmaschinen 
+Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer zweijährigen Testphase veröffentlichte Google im Januar 2020 die Vollversion. Dabei erreichte die Suchmaschiene folgende Ziele:
+- Beinhaltet mehr als 31 Millionen Datensätze
+- Datensätze von mehr als 4.600 Domains
+- Mehr als 3 Millionen Datensätze haben DOIs (ca. 11%)
+- 10 Millionen Datensätze wurde innerhalb eines Jahres aktualisiert (ca. 30%)
+- 12 Millionen Datensätze stellen einen Downloadlink zur Verfügung (ca.44%)
+![image](https://user-images.githubusercontent.com/96026924/147484430-d5980665-5045-4920-b2e9-713ea55cb927.png)
 

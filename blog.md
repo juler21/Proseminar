@@ -5,6 +5,7 @@ Jeden Tag werden neue Datensätze im Web veröffentlicht. Nicht erst seit der we
 [Schema.org](https://schema.org/) ist eine mark-up language für die Gliederung und Formatierung von Daten auf Websites, dabei unterstützt schema.org die Datenformate RDFa, Microdata und JSON-LD. Es wurde in einem Gemeinschaftsprojekt der Suchmaschinenanbieter Google, Microsoft, Yahoo und Yadex entwickelt. Dadurch werden Daten für Maschinen lesbar und die Semantik wird einheitlich, so kann der Google Algorithmus zum Beispiel erkennen, dass es sich bei dem Datensatz zum Beispiel um eine Veranstaltung handelt. Schema.org ist hierarchisch aufgebaut. Der oberste Typ ist „Thing“. Er besitzt mehrere Subtypen, wie „Action“ oder „Event“. Dies können wiederum mehrere Subtypen haben. Der Pfad für ein Musikkonzert wäre zum Beispiel folgender: „Thing-Event-MusicEvent“. Der Typ [schmema.org/Dataset](https://schema.org/Dataset) hat mehre Eigenschaften, so werden in schema.org einem Datensatz zum Beispiel einen Titel und der Name des Providers hinzugefügt. Jeder Datensatz in Dataset Search hat einen Titel und eine Beschreibung in den Metadaten gespeichert.
 
 ## Aufbau der Suchmaschine
+
 Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensätzen in schema.org Metadateneigenschaften hinzufügen. Je mehr Metadaten ein Datensatz hat, desto besser kann er bei Suchanfragen gefunden werden. Doch sind die Metadaten zu den Datensätzen oft unvollständig und vage. Deshalb abstrahiert Google einige Metadaten, so werden zum Beispiel die Eigenschaften „publisher“ und „creater“ zu „provided by“ zusammengefasst. Häufig existieren die gleichen Datensätze in unterschiedlichen Repositorien. Dataset Search identifiziert die Replica und fügt sie zu einem Datensatz zusammen. 
 
 <p align = "center"> 
@@ -40,6 +41,25 @@ Der Korpus der Metadaten in Google Dataset Search expandiert stetig. Nach einer 
 *Source: Benjelloun, O., Chen, S., & Noy, N. (2020, November). Google dataset search by the numbers. In International Semantic Web Conference (pp. 667-682). Springer, Cham.*
 
 ## Keine perfekte Suchmaschine
+Dataset Search soll die Zukunft der Datensuche revolutionieren, doch weist sie noch einige Probleme auf. Damit Suchanfragen erfolgreich sind und möglichst viele und genauer Treffer ergeben, müssen die Datensätze viele Metadaten in schema.org haben. Viele Provider veröffentlichen jedoch wenig Metadaten zu ihren Datensätzen. Eine gute Darstellung des Datensatzes in den Metadaten ist elementar für die Auffindbarkeit. Nur eine Beschreibung (Property :: description) und Titel (Property :: name) muss jeder Datensatz in der Google Dataset Search haben. Die Eigenschaft vom Datendownload werden in schema.org mit dem Schlüsselwort „distribution“ angegeben. Dabei fällt auf, dass nur etwa 44 % der Datensätze einen Download bereitstellt. Ein weiteres Problem der Suchmaschine sind die fehlenden Lizenzinformationen. Ohne eine Lizenz können die Nutzer die Datensätze nicht oder nur eingeschränkt nutzen. Weniger als 1 % in dem Korpus sind Datensätze kommt aus dem Semantic Web. Dabei ist nicht das Problem, dass es zu wenig Datensätze gibt, sondern die Datensätze werden in schema.org nicht beschrieben.
 
-Dataset Search soll die Zukunft der Datensuche revolutionieren, doch weist sie noch einige Probleme auf. 
+<p align = "center"> 
+    <img src = image3.png>
+</p>
+
+
+## Wie man Dataset Search verbessert
+-	Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.
+-	Man kann die Eigentümer von Datensätzen wissen lassen, dass ihre Datensatz-Metadaten verbessert werden können. Google-Tools, wie die Search Console und das Tool  zum Testen strukturierter Daten zeigen bereits einige dieser Probleme auf.
+-	Man könnte auch die Entwicklung interaktiver Tools zur Erstellung und Validierung von Metadaten zu erstellen und zu validieren, die in gängige CMS zur Verwaltung von Datensätzen oder in Hosting-Plattformen integriert werden könnten.
+-	Crowdsourcing Die Nutzer von Datensätze korrigiere oder weisen selbst auf die fehlenden Metadaten hin. Diese Funktion könnte Dataset Search zur Verfügung stellen und an den Herausgeber des Datensatzes weiterleiten.
+
+Viele Datensätze sind Duplikate oder von anderen Datensätzen abgeleitet. Abgeleitete Datensätze sind vergleichbar mit Zitaten von Arbeiten. Schema.org bietet Eigenschaften zum Beschreiben dieser Abhängigkeiten so#sameAS oder so#isBasedOn. Nur werden diese kaum genutzt. Wie kann man das verbessern: 
+
+-	Duplikate werden bereits erkannt.
+-	Es wäre ein großer Nutzen die Verwendung von schema.org bei der Zitierung von Datensätzen vorzuschreiben.
+
+## Conclusio
+Dennoch lassen die Metadaten noch viel zu wünschen übrig, wenn die Daten wirklich zu einem erstklassigen Bestandteil des wissenschaftlichen Diskurses werden sollen: Wir brauchen Werkzeuge, die sicherstellen, dass die Metadaten und Mechanismen, die die Verwendung von Lizenzinformationen für Daten und persistente Identifikatoren zu fördern. Und die Semantic-Web-Gemeinschaft muss ihr eigenes Hundefutter essen, indem sie ihren Datensätzen semantische Metadaten hinzufügt.
+
 

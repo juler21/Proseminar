@@ -47,6 +47,8 @@ Dataset Search soll die Zukunft der Datensuche revolutionieren, doch weist sie n
     <img src = image3.png>
 </p>
 
+*Source: Benjelloun, O., Chen, S., & Noy, N. (2020, November). Google dataset search by the numbers. In International Semantic Web Conference (pp. 667-682). Springer, Cham.*
+
 
 ## Wie man Dataset Search verbessert
 -	Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.

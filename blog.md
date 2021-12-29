@@ -53,7 +53,7 @@ Table: Percentage of datasets with specific properties. Column 2 lists the sourc
 
 
 ## Wie man Dataset Search verbessert
-Wie schon in der Tabelle zu sehen ist ein großes Problem die fehlenden Metadaten zu vielen Eigenschaften der Datensätze. Es ist die Aufgabe von Google diese Lücke zu schließen und somit eine verbesserte Suche zu erreichen. Google selbst hat dazu folgende Vorschläge: 
+Wie schon in der Tabelle zu sehen ist ein großes Problem die fehlenden Metadaten zu vielen Eigenschaften der Datensätze, unteranderem zu "data download" und "license". Es ist die Aufgabe von Google diese Lücke zu schließen und somit eine verbesserte Suche zu erreichen. Google selbst hat dazu folgende Vorschläge: 
 
 - Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.
 - Einsetzen von Google-Tools, wie die [Search Console](https://search.google.com/search-console/about), welche den Provider von der Unvollständigkeit der Metadaten informiert
@@ -61,12 +61,10 @@ Wie schon in der Tabelle zu sehen ist ein großes Problem die fehlenden Metadate
 - [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing): Die Nutzer korrigiere oder weisen selbst auf die fehlenden Metadaten hin
   -  Funktion könnte Dataset Search zur Verfügung stellen und an den Herausgeber des Datensatzes weiterleiten
 
-Viele Datensätze sind Duplikate oder von anderen Datensätzen abgeleitet. Abgeleitete Datensätze sind vergleichbar mit Zitaten von Arbeiten. Schema.org bietet Eigenschaften zum Beschreiben dieser Abhängigkeiten so#sameAS oder so#isBasedOn. Nur werden diese kaum genutzt. Wie kann man das verbessern: 
-
--	Duplikate werden bereits erkannt.
--	Es wäre ein großer Nutzen die Verwendung von schema.org bei der Zitierung von Datensätzen vorzuschreiben.
+Viele Datensätze im Web sind Duplikate. Duplikate sind jedoch ein Problem für eine Suchmaschine, da sich Suchergebnisse doppeln. Mit data cleaning versucht Google dieses Problem zu lösen. Wie kann man das System verbessern? Die Einführung von Digital Object Identifier für Datensätze löst mehrere Probleme. Durch DOIs werden die Datensätze für WissenschaftlerIn zitierbar und Duplikate werden einfach erkannt. Google sollte die Vergabe von DOIs für Datensätze mehr unterstützen und die Provider motivieren ihre Datensätze von Organisation, wie [DataCite](https://datacite.org/value.html), registrieren zu lassen.
 
 ## Conclusio
+
 Dennoch lassen die Metadaten noch viel zu wünschen übrig, wenn die Daten wirklich zu einem erstklassigen Bestandteil des wissenschaftlichen Diskurses werden sollen: Wir brauchen Werkzeuge, die sicherstellen, dass die Metadaten und Mechanismen, die die Verwendung von Lizenzinformationen für Daten und persistente Identifikatoren zu fördern. Und die Semantic-Web-Gemeinschaft muss ihr eigenes Hundefutter essen, indem sie ihren Datensätzen semantische Metadaten hinzufügt.
 
 

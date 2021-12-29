@@ -46,6 +46,8 @@ Dataset Search soll die Zukunft der Datensuche revolutionieren, doch weist sie n
 <p align = "center"> 
     <img src = image3.png>
 </p>
+Table: Percentage of datasets with specific properties. Column 2 lists the source predicates for each property (schema.org namespace as so# and the DCAT namespace as dct#).
+
 
 *Source: Benjelloun, O., Chen, S., & Noy, N. (2020, November). Google dataset search by the numbers. In International Semantic Web Conference (pp. 667-682). Springer, Cham.*
 

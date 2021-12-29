@@ -53,10 +53,11 @@ Table: Percentage of datasets with specific properties. Column 2 lists the sourc
 
 
 ## Wie man Dataset Search verbessert
--	Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.
--	Man kann die Eigentümer von Datensätzen wissen lassen, dass ihre Datensatz-Metadaten verbessert werden können. Google-Tools, wie die Search Console und das Tool  zum Testen strukturierter Daten zeigen bereits einige dieser Probleme auf.
--	Man könnte auch die Entwicklung interaktiver Tools zur Erstellung und Validierung von Metadaten zu erstellen und zu validieren, die in gängige CMS zur Verwaltung von Datensätzen oder in Hosting-Plattformen integriert werden könnten.
--	Crowdsourcing Die Nutzer von Datensätze korrigiere oder weisen selbst auf die fehlenden Metadaten hin. Diese Funktion könnte Dataset Search zur Verfügung stellen und an den Herausgeber des Datensatzes weiterleiten.
+- Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.
+- Einsetzen von Google-Tools, wie die [Search Console](https://search.google.com/search-console/about), welche den Provider von der Unvollständigkeit der Metadaten informiert
+- Entwicklung interaktiver Tools zur Erstellung und Validierung von Metadaten, die in gängige [Content Management Systemen](https://en.wikipedia.org/wiki/Content_management_system) zur Verwaltung von Datensätzen oder in Hosting-Plattformen      integriert werden
+- [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing): Die Nutzer korrigiere oder weisen selbst auf die fehlenden Metadaten hin
+  -  Funktion könnte Dataset Search zur Verfügung stellen und an den Herausgeber des Datensatzes weiterleiten
 
 Viele Datensätze sind Duplikate oder von anderen Datensätzen abgeleitet. Abgeleitete Datensätze sind vergleichbar mit Zitaten von Arbeiten. Schema.org bietet Eigenschaften zum Beschreiben dieser Abhängigkeiten so#sameAS oder so#isBasedOn. Nur werden diese kaum genutzt. Wie kann man das verbessern: 
 

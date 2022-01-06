@@ -53,9 +53,9 @@ Table: Percentage of datasets with specific properties. Column 2 lists the sourc
 
 
 ## Wie man Dataset Search verbessert
-Wie schon in der Tabelle zu sehen, ist ein großes Problem die fehlenden Metadaten zu vielen Eigenschaften der Datensätze, unteranderem zu "data download" und "license". Es ist die Aufgabe von Google diese Lücke zu schließen und somit eine verbesserte Suche zu erreichen. Google selbst hat dazu folgende Vorschläge: 
+Wie in der Tabelle zu sehen, ist ein großes Problem die fehlenden Metadaten zu vielen Eigenschaften der Datensätze, unteranderem zu "data download" und "license". Es ist die Aufgabe von Google diese Lücke zu schließen und somit eine verbesserte Suche zu erreichen. Google selbst hat dazu folgende Vorschläge: 
 
-- Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten.
+- Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten
 - Einsetzen von Google-Tools, wie die [Search Console](https://search.google.com/search-console/about), welche den Provider von der Unvollständigkeit der Metadaten informiert
 - Entwicklung interaktiver Tools zur Erstellung und Validierung von Metadaten, die in gängige [Content Management Systemen](https://en.wikipedia.org/wiki/Content_management_system) zur Verwaltung von Datensätzen oder in Hosting-Plattformen      integriert werden
 - [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing): Die Nutzer korrigieren oder weisen selbst auf die fehlenden Metadaten hin

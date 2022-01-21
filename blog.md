@@ -61,7 +61,7 @@ Die Tabelle visualisiert das große Problem von fehlenden Metadaten zu vielen Ei
 - Entwicklung interaktiver Tools zur Erstellung und Validierung von Metadaten, die in gängigen [Content Management Systemen](https://en.wikipedia.org/wiki/Content_management_system) zur Verwaltung von Datensätzen oder in Hosting-Plattformen      integriert werden
 - [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing): Die Nutzer korrigieren oder weisen selbst auf die fehlenden Metadaten hin
   -  Funktion könnte Dataset Search zur Verfügung stellen und an den Herausgeber des Datensatzes weiterleiten
--Verwendung von Digital Object Identifier für Datensätze  
+- Verwendung von Digital Object Identifier für Datensätze  
 
 Viele Datensätze im Web sind Duplikate. Duplikate sind jedoch ein Problem für eine Suchmaschine, da sich Suchergebnisse doppeln. Mit data cleaning versucht Google dieses Problem zu lösen. Wie kann man das System verbessern? Die Einführung von Digital Object Identifier für Datensätze löst mehrere Probleme. Durch DOIs werden die Datensätze für die Wissenschaft zitierbar und Duplikate werden erkannt. Google sollte die Vergabe von DOIs für Datensätze stärker unterstützen und die Provider motivieren ihre Datensätze von Organisation, wie [DataCite](https://datacite.org/value.html), registrieren zu lassen.
 

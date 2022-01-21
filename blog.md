@@ -21,7 +21,7 @@ Eine Möglichkeit ein Duplikat zu erkennen, ist ein Vergleich über [Digital Obj
 Der [Google Knowledge Graph](https://blog.google/products/search/introducing-knowledge-graph-things-not/) ist ein Wissensgraph mit über fünf Milliarden Entitäten, welcher Informationen verlinkt und Beziehungen zwischen Objekten bildet. Dataset Search verlinkt die Informationen aus den Metadaten der Datensätze mit den Entitäten und Fakten aus dem Wissensgraphen. Dadurch werden Suchanfragen der Nutzer optimiert. Es entsteht beispielsweise ein Cluster von Akronymen und Synonymen bei Suchanfragen.
 
 ### Verknüpfung mit Google Scholar
-Mit [Google Scholar](https://scholar.google.com/intl/de/scholar/about.html) weiß die Suchmaschine, welche Datensätze in Publikationen referenziert werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten und uneinheitlich zitiert. 
+Mit [Google Scholar](https://scholar.google.com/intl/de/scholar/about.html) weiß die Suchmaschine, welche Datensätze in Publikationen referenziert werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten und inhomogen zitiert. 
 
 
 Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit Hilfe der Antworten auf die Suchanfragen von Nutzern eruiert der Algorithmus die passenden Ergebnisse. Der Nutzer muss nur ein Keyword nennen, um eine beliebig große Anzahl an Suchergebnissen zu diversen Themen zu erhalten. Die meistgenannten Suchbegriffe sind „education“, „weather“, „cancer“, „crime“ und „soccer“.

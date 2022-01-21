@@ -21,7 +21,7 @@ Eine Möglichkeit ein Duplikat zu erkennen, ist ein Vergleich über [Digital Obj
 Der [Google Knowledge Graph](https://blog.google/products/search/introducing-knowledge-graph-things-not/) ist ein Wissensgraph mit über fünf Milliarden Entitäten, welcher Informationen verlinkt und Beziehungen zwischen Objekten bildet. Dataset Search verlinkt die Informationen aus den Metadaten der Datensätze mit den Entitäten und Fakten aus dem Wissensgraphen. Dadurch werden Suchanfragen der Nutzer optimiert. Es entsteht beispielsweise ein Cluster von Akronymen und Synonymen bei Suchanfragen.
 
 ### Verknüpfung mit Google Scholar
-Mit [Google Scholar](https://en.wikipedia.org/wiki/Google_Scholar) weiß die Suchmaschine, welche Datensätze in Publikationen referenzierte werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten und uneinheitlich zitiert. 
+Mit [Google Scholar](https://scholar.google.com/intl/de/scholar/about.html) weiß die Suchmaschine, welche Datensätze in Publikationen referenzierte werden und somit findet Google den Bekanntheitsgrad des jeweiligen Datensatzes heraus. Jedoch werden Datensätze nur sehr selten und uneinheitlich zitiert. 
 
 
 Die Metadaten aus dem Korpus an Datensätzen werden indexiert. Mit Hilfe der Antworten auf die Suchanfragen von Nutzern eruiert der Algorithmus die passenden Ergebnisse. Der Nutzer muss nur ein Keyword nennen, um eine beliebig große Anzahl an Suchergebnissen zu diversen Themen zu erhalten. Die meistgenannten Suchbegriffe sind „education“, „weather“, „cancer“, „crime“ und „soccer“.
@@ -53,7 +53,7 @@ Table: Percentage of datasets with specific properties. Column 2 lists the sourc
 
 
 ## Wie man Dataset Search verbessert
-Die Tabelle visualisiert das große Problem von fehlenden Metadaten zu vielen Eigenschaften der Datensätze, unter anderem zu „data download" und „license". Es ist die Aufgabe von Google diese Lücke zu schließen um eine bessere Suche zu realisieren. In dem Paper „Google Dataset Search by Numbers" werden zur Lösung folgende Optionen erläutert:
+Die Tabelle visualisiert das große Problem von fehlenden Metadaten zu vielen Eigenschaften der Datensätze, unter anderem zu „data download" und „license". Es ist die Aufgabe von Google diese Lücke zu schließen um eine bessere Suche zu realisieren. In dem Paper „[Google Dataset Search by the Numbers](https://research.google/pubs/pub49385/)" werden zur Lösung folgende Optionen erläutert:
 
 - Verbesserung der Technik zu automatisierter Bereinigung, Normalisierung und Abstimmung von Metadaten
 - Einsetzen von Google-Tools, wie die [Search Console](https://search.google.com/search-console/about), welche den Provider über die Unvollständigkeit von Metadaten informiert

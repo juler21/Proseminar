@@ -12,7 +12,7 @@ Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensät
     <img src = image1.png>
 </p>
 
-*Source: Burgess, M., & Noy, N. (September, 2018). Building Google Dataset Search and Fostering an Open Data Ecosystem. Google AI Blog.*
+*Source: Brickley, D., Burgess, M., & Noy, N. (2019, May). Google Dataset Search: Building a search engine for datasets in an open Web ecosystem. In The World Wide Web Conference (pp. 1365-1375).*
 
 ### Mit Hilfe von Digital Object Identifier den Datenpool sortieren
 Eine Möglichkeit ein Duplikat zu erkennen, ist ein Vergleich über [Digital Object Identifier (DOIs)](https://en.wikipedia.org/wiki/Digital_object_identifier). Ein DOI ist ein eindeutiger Identifikator für digitale Objekte. Anhand des Identifikators kann aus einer zentralen Datenbank die URL, die dem Objekt zugewiesen ist, abgefragt werden. Somit werden Metadaten über das referenzierte Objekt gespeichert, wodurch das Problem [„link death"](https://en.wikipedia.org/wiki/Link_rot) gelöst wird. 

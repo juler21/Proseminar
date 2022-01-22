@@ -6,7 +6,7 @@ Jeden Tag werden neue Datensätze im Web veröffentlicht. Nicht erst seit der we
 
 ## Aufbau der Suchmaschine
 
-Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensätzen in der von schema.org entwickelten Ontologie Metadaten hinzufügen. Je mehr Metadaten zu einem Datensatz hinzugefügt werden, desto besser wird eine Suchanfragen repliziert. Doch sind die Metadaten der Datensätze häufig unvollständig und vage. Deshalb abstrahiert Google einige Metadaten, wie zum Beispiel die Eigenschaften „publisher“ und „creater“. Sie werden zu „provided by“ zusammengefasst. Häufig existieren die gleichen Datensätze in unterschiedlichen Repositorien. Dataset Search identifiziert die Replikate und fügt sie zu einem Datensatz zusammen. 
+Die Dataset Search basiert auf dem Konzept, dass die Provider zu ihren Datensätzen in der von schema.org entwickelten Ontologie Metadaten hinzufügen. Je mehr Metadaten zu einem Datensatz hinzugefügt werden, desto besser wird eine Suchanfragen repliziert. Doch sind die Metadaten der Datensätze häufig defektiv. Deshalb abstrahiert Google einige Metadaten, wie zum Beispiel die Eigenschaften „publisher“ und „creater“. Sie werden zu „provided by“ zusammengefasst. Häufig existieren die gleichen Datensätze in unterschiedlichen Repositorien. Dataset Search identifiziert die Replikate und fügt sie zu einem Datensatz zusammen. 
 
 <p align = "center"> 
     <img src = image1.png>
